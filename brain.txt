@@ -1,0 +1,184 @@
+
+humanScore = 0;
+computerScore = 0;
+
+getHumanChoice() {
+    prompt user to pick rock, paper, or sissors
+}
+
+getComputerChoice() {
+    randomly pick between rock, paper, and sissors
+    return the pick
+}
+
+playGame {
+
+    const humanChoice = getHumanChoise();
+    const computerSelection = getComputerChoice();
+
+    playRound(humanChoice, computerChoice) {
+
+        console.log(`You Chose ${humanChoice}`);
+        console.log(`The Computer Chose ${computerChoice})
+
+        if humanChoice == true && computerChoice == false{
+            console.log(`You win! ${humanChoice} beats ${computerChoice})
+            humanScore ++;
+        }
+
+        else if humanChoice == true & computerChoice == true {
+            console.log(`You Tied! ${humanChoice} is the same as ${computerChoice})
+            
+
+        else {
+            console.log(`You Lose! ${humanChoice} does not beat ${computerChoice})
+            computerScore ++;
+        }
+
+        }
+    }
+
+    playRound() {
+        
+    }
+
+    console.log(`Current Scores: `);
+    console.log(`You: ${humanScore}`);
+    console.log(`Computer: ${computerScore}`);
+
+    if humanScore > computerScore {
+        console.log(`You are winning!`)
+    }
+
+    else {
+        console.log(`You are losing!`)
+
+    }
+
+    playRound() {
+
+    }
+
+    console.log(`Current Scores: `);
+    console.log(`You: ${humanScore}`);
+    console.log(`Computer: ${computerScore}`);
+
+    if humanScore > computerScore {
+        console.log(`You are winning!`)
+    }
+
+    else {
+        console.log(`You are losing!`)
+
+    }
+
+    playRound() {
+
+    }
+
+    console.log(`Current Scores: `);
+    console.log(`You: ${humanScore}`);
+    console.log(`Computer: ${computerScore}`);
+
+    if humanScore > computerScore {
+        console.log(`You are winning!`)
+    }
+
+    else {
+        console.log(`You are losing!`)
+
+    }
+
+    playRound() {
+
+    }
+
+    console.log(`Current Scores: `);
+    console.log(`You: ${humanScore}`);
+    console.log(`Computer: ${computerScore}`);
+
+    if humanScore > computerScore {
+        console.log(`You are winning!`)
+    }
+
+    else {
+        console.log(`You are losing!`)
+
+    }
+
+    playRound() {
+
+    }
+
+    console.log(`Current Scores: `);
+    console.log(`You: ${humanScore}`);
+    console.log(`Computer: ${computerScore}`);
+
+    if humanScore > computerScore {
+        console.log(`You are winning!`)
+    }
+
+    else {
+        console.log(`You are losing!`)
+
+    }
+
+    console.log("Game Finished");
+
+    if humanScore > computerScore {
+        console.log(`You won!`)
+    }
+
+    else {
+        console.log(`You lost!`)
+
+    }
+}
+
+switch(human_choice, computer_choice) {
+            case (human_choice == "rock" && computer_choice == "rock"):
+                human_outcome = true;
+                computer_outcome = true;
+                break;
+
+            case (human_choice == "rock" && computer_choice == "paper"):
+                human_outcome = false;
+                computer_outcome = true;
+                break;
+
+            case (human_choice == "rock" && computer_choice == "scissors"):
+                human_outcome = true;
+                computer_outcome = false;
+                break;
+
+            case (human_choice == "paper" && computer_choice == "rock"):
+                human_outcome = true;
+                computer_outcome = false;
+                break;
+
+            case (human_choice == "paper" && computer_choice == "paper"):
+                human_outcome = true;
+                computer_outcome = true;
+                break;
+
+            case (human_choice == "paper" && computer_choice == "scissors"):
+                human_outcome = false;
+                computer_outcome = true;
+                break;
+
+            case (human_choice == "scissors" && computer_choice == "rock"):
+                human_outcome = false;
+                computer_outcome = true;
+                break;
+
+            case (human_choice == "scissors" && computer_choice == "paper"):
+                human_outcome = true;
+                computer_outcome = false;
+                break;
+
+            case (human_choice == "scissors" && computer_choice == "scissors"):
+                human_outcome = true;
+                computer_outcome = true;
+                break;
+            
+        }
