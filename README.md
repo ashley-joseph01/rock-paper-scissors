@@ -1,3 +1,3 @@
-# rps-odinProject
+# rock-paper-sissors
 
-ROCK PAPPER SISSORS PROJECT
+Odin Project
