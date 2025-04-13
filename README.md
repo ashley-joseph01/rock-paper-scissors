@@ -1,1 +1,3 @@
 # rps-odinProject
+
+ROCK PAPPER SISSORS PROJECT
